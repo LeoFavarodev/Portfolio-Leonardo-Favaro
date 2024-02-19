@@ -32,3 +32,11 @@ body{
 p{
     text-align: justify;
 }
+li > a{
+    text-decoration: none;
+    color: black;
+}
+
+a::after{
+    text-decoration: underline;
+}
