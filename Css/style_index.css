@@ -73,7 +73,8 @@ button{
 #botao{
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-left: 1037px;
+    margin-left: auto;
+    margin-right: 0;
     background-image: linear-gradient(to right, #FB8500, #FFB703);
     border-bottom-right-radius: 15px;
     width: 450px;
