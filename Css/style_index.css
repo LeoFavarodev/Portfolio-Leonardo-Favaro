@@ -21,68 +21,32 @@ https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25
 
 */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-padrao: 'Arial', sans-serif;
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #E0E1DD;
-    margin-top: 0;
-    margin-right: 0;
+    font-family: var(--font-padrao);
 }
 
-header{
-    text-align: center;
+header > h1{
+    font-size: 2em;
+    max-width: 450px;
+    margin-left: 70px;
+    padding-top: 30px;
 }
 
-h1{
-    margin-bottom: 2px;
+header > h2{
+    font-size: 1.2em; 
+    margin-left: 140px;
 }
 
-h2{
-    font-size: 1em;
-    margin-top: 2px;
+form{
+    display: inline-block;
 }
-
-.traco{
-    font-weight: bolder;
-}
-
-a{
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-#config_principal{
-    text-align: center;
-}
-
-button{
-    margin-top:5px;
-    margin-bottom: 5px;
-    padding: 5px 20px 5px 20px;
-    border: 3px inset black;
-    font-size: 1em;
-    background-image: linear-gradient(to right, #219EBC ,#8ECAE6);
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-    border-radius: 7px;
-}
-
-#botao{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: auto;
-    margin-right: 0;
-    background-image: linear-gradient(to right, #FB8500, #FFB703);
-    border-bottom-right-radius: 15px;
-    width: 450px;
-}
-
-
-#contato{
-    margin-top: 5px;
-}
-
 
