@@ -3,15 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
-    font-family: 'High Speed';
-    src: url(../fonts/high_speed/High\ Speed.otf);
+    font-family: 'Militech';
+    src: url(../fonts/militech/militech_r_2019-04-13.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
-
-/* 
-     font1: "Salsa", cursive
-     font2: ""
-*/
+@font-face {
+    font-family: 'Techno';
+    src: url(../fonts/techno/Techno.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
     margin: 0px;
@@ -34,29 +37,31 @@ body{
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.612);
-    padding: 40px 35px;
+    padding: 50px 35px;
 }
 
-h1{
-    font-family: "Bebas Neue", cursive;
+header h1{
+    display: inline-block;
+    font-family: "Techno", 'cursive';
     font-weight: normal;
     font-style: normal;
-    display: inline-block;
     font-variant: small-caps;
     font-size: 3.6em;
     margin-left: 250px;
-    color: white;
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    float: inline-end;
     margin-right: 180px;
 }
 
 nav li{
+    float: inline-end;
     list-style: none;
     cursor: pointer;
-    float: inline-end;
+    margin-top: 10px;
 }
 
 nav img{
@@ -64,30 +69,69 @@ nav img{
 }
 
 .nav_img{
-    margin-top: 22px ;
     margin-right: 20px;
 }
 
 .nav_escrito{
-    margin-top: 20px;
+    font-family: "Techno", cursive;
     font-size: 1.2em;
     background-color: gray;
-    padding: 9px 20px;
+    padding: 10px 20px;
     border-radius: 7px;
     font-weight: bold;
-    color: white;
     margin-right: 40px;
+
 }
 
-.right{
-    float: inline-end;
-    margin: 30px;
-    font-size: 1.2em;
-    background-color: gray;
-    border-radius: 7px;
-    padding: 9px 20px;
-    font-weight: bold;
+.nav_escrito:hover{
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.301);
     color: white;
+}
+
+.apresentacao{
+    padding: 25px;
+    background-color: aqua;
+}
+
+#descricao{
+    display: inline-block;
+    margin-top: 14vh;
+}
+
+#descricao h1{
+    perspective-origin: top right;
+    font-family: "Militech", 'cursive';
+    font-variant: small-caps;
+    font-size: 3.4em;
+    margin-bottom: 150px;
+    margin-left: 7vw;
+}
+
+#descricao h2{
+    font-family: "Militech", 'cursive';
+    font-variant: small-caps;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.3em;
+    margin-left: 17vw;
+}
+
+#descricao p{
+    max-width: 600px;
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 17vw;
+    line-height: 1.5em;
+}
+
+#foto{
+    float: inline-end;
+    background-image: url(../imagens/preto.png);
+    width: 40vw;
+    height: 35vh;
+    margin-right: 100px;
+    margin-top: 150px;
 }
 
 
