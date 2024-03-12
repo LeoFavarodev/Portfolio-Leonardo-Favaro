@@ -88,9 +88,11 @@ nav img{
     color: white;
 }
 
-.apresentacao{
+#apresentacao{
+    display: flex;
+    align-items: center;
     padding: 25px;
-    background-color: aqua;
+    background-color: ;
 }
 
 #descricao{
@@ -117,7 +119,7 @@ nav img{
 }
 
 #descricao p{
-    max-width: 600px;
+    max-width: 640px;
     font-size: 1.1em;
     text-align: justify;
     text-indent: 30px;
@@ -130,7 +132,8 @@ nav img{
     background-image: url(../imagens/preto.png);
     width: 40vw;
     height: 35vh;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin: auto;
     margin-top: 150px;
 }
 
