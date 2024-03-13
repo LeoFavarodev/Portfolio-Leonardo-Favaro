@@ -24,11 +24,7 @@
 
 :root{
     --font-padrao: 'Arial', sans-serif;
-    --bege: #fffcf2ff;
-    --cinza-claro: rgb(237, 237, 237);
-    --cinza-escuro: #403d39ff;
-    --preto: #252422ff;
-    --laranja: #eb5e28ff;
+    --font-title: 'Militech', 'cursive';
 }
 
 body{
@@ -77,9 +73,9 @@ nav img{
     font-size: 1.2em;
     background-color: gray;
     padding: 10px 20px;
-    border-radius: 7px;
+    border-radius: 1vh;
     font-weight: bold;
-    margin-right: 40px;
+    margin-right: 4.5vh;
 
 }
 
@@ -92,7 +88,6 @@ nav img{
     display: flex;
     align-items: center;
     padding: 25px;
-    background-color: ;
 }
 
 #descricao{
@@ -102,7 +97,7 @@ nav img{
 
 #descricao h1{
     perspective-origin: top right;
-    font-family: "Militech", 'cursive';
+    font-family: var(--font-title);
     font-variant: small-caps;
     font-size: 3.4em;
     margin-bottom: 150px;
@@ -110,7 +105,7 @@ nav img{
 }
 
 #descricao h2{
-    font-family: "Militech", 'cursive';
+    font-family: var(--font-title);
     font-variant: small-caps;
     margin-bottom: 15px;
     text-align: center;
