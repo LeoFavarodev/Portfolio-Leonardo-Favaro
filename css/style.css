@@ -27,109 +27,104 @@
     --font-title: 'Militech', 'cursive';
 }
 
-body{
-    font-family: var(--font-padrao);
-    min-height: 100vh;
+@media screen and (min-width: 1400px){
+    
+
+    body{
+        font-family: var(--font-padrao);
+        min-height: 100vh;
+    }
+    
+    header{
+        padding: 50px 35px;
+        display: flex;
+        align-items: center;
+    }
+    
+    header h1{
+        font-family: "Techno", 'cursive';
+        font-weight: normal;
+        font-style: normal;
+        font-variant: small-caps;
+        font-size: 6vh;
+        margin-left: 250px;
+    }
+    
+    nav{
+        margin-top: 10px;
+        margin-left: 460px;
+    }
+    
+    nav li{
+        float: inline-end;
+        list-style: none;
+        cursor: pointer;
+    }
+    
+    nav img{
+        width: 2.3vw;
+        margin-right: 20px;
+    }
+    
+    .nav_escrito{
+        font-family: "Techno", cursive;
+        font-size: 0.9vi;
+        background-color: gray;
+        padding: 1.2vh 3vh;
+        border-radius: 1vh;
+        font-weight: bold;
+        margin-right: 4.5vh;
+    
+    }
+    
+    .nav_escrito:hover{
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.301);
+        color: white;
+    }
+    
+    #apresentacao{
+        width: 100vw;
+        display: inline-block;
+        padding: 25px;
+        margin-top: 14vh;
+    }
+    
+    #descricao{
+        display: inline-block;
+        margin-left: 5vw;
+    }
+    
+    #apresentacao h1{
+        font-family: var(--font-title);
+        font-variant: small-caps;
+        font-size: 2.4em;
+        margin-bottom: 150px;
+        margin-left: 6vw;
+    }
+    
+    #descricao h2{
+        font-family: var(--font-title);
+        font-variant: small-caps;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 1.9em;
+    }
+    
+    #descricao p{
+        max-width: 640px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 1.5em;
+    }
+    
+    #foto{
+        float: inline-end;
+        background-image: url(../imagens/preto.png);
+        width: 30vw;
+        height: 30vh;
+        margin-left: 100px;
+        margin: auto;
+        margin-top: 150px;
+    }    
+    
 }
-
-header{
-    padding: 50px 35px;
-}
-
-header h1{
-    display: inline-block;
-    font-family: "Techno", 'cursive';
-    font-weight: normal;
-    font-style: normal;
-    font-variant: small-caps;
-    font-size: 3.6em;
-    margin-left: 250px;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    float: inline-end;
-    margin-right: 180px;
-}
-
-nav li{
-    float: inline-end;
-    list-style: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-nav img{
-    width: 35px;
-}
-
-.nav_img{
-    margin-right: 20px;
-}
-
-.nav_escrito{
-    font-family: "Techno", cursive;
-    font-size: 1.2em;
-    background-color: gray;
-    padding: 10px 20px;
-    border-radius: 1vh;
-    font-weight: bold;
-    margin-right: 4.5vh;
-
-}
-
-.nav_escrito:hover{
-    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.301);
-    color: white;
-}
-
-#apresentacao{
-    display: flex;
-    align-items: center;
-    padding: 25px;
-}
-
-#descricao{
-    display: inline-block;
-    margin-top: 14vh;
-}
-
-#descricao h1{
-    perspective-origin: top right;
-    font-family: var(--font-title);
-    font-variant: small-caps;
-    font-size: 3.4em;
-    margin-bottom: 150px;
-    margin-left: 7vw;
-}
-
-#descricao h2{
-    font-family: var(--font-title);
-    font-variant: small-caps;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 2.3em;
-    margin-left: 17vw;
-}
-
-#descricao p{
-    max-width: 640px;
-    font-size: 1.1em;
-    text-align: justify;
-    text-indent: 30px;
-    margin-left: 17vw;
-    line-height: 1.5em;
-}
-
-#foto{
-    float: inline-end;
-    background-image: url(../imagens/preto.png);
-    width: 40vw;
-    height: 35vh;
-    margin-left: 200px;
-    margin: auto;
-    margin-top: 150px;
-}
-
-
